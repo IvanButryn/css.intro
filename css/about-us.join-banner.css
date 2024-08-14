@@ -11,7 +11,7 @@
    /* text-align: center; */
    align-items: center;
    flex-direction: column;
-   row-gap: 50px;
+   row-gap: 40px;
 }
 .join-banner__title {
     font-family: "Noto Sans", sans-serif;
@@ -21,14 +21,16 @@
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
-.join-banner__main {
+.join-banner__main-phrase {
     font-family: "Righteous", cursive;
     font-size: 56px;
     color: #ffffff;
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: 400;
 }
 .join-banner__text-content {
     font-family: "Noto Sans", sans-serif;
@@ -37,6 +39,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: 500;
 }
 .join-banner__button-container {
     display: flex;
@@ -52,6 +55,8 @@
     justify-content: center; 
     padding: 10px 10px 10px 10px;
     margin: 10px;
+    width: 185px;
+    height: 45px;
 }
 .join-banner__button:hover {
     background: linear-gradient(90deg, #3e00fa, #7f00ff, #8605ff, #e100ff);
@@ -67,9 +72,11 @@
     width: 24px;
     height: 24px;
 }
-/* @media (min-width:992) {
-
-} */
+@media (min-width: 992px) {
+    .join-banner__main-phrase {
+        font-size: 68px;
+    }
+}
 
 
 
