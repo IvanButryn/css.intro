@@ -8,9 +8,10 @@
    background-size: cover;
    display: flex;
    justify-content: center;
-   text-align: center;
+   /* text-align: center; */
    align-items: center;
    flex-direction: column;
+   row-gap: 50px;
 }
 .join-banner__title {
     font-family: "Noto Sans", sans-serif;
@@ -19,8 +20,6 @@
     color: #ff7433;
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: auto;
     text-transform: uppercase;
 }
 .join-banner__main {
@@ -68,7 +67,9 @@
     width: 24px;
     height: 24px;
 }
-@media (min-width:)
+/* @media (min-width:992) {
+
+} */
 
 
 
